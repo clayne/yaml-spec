@@ -1,5 +1,5 @@
-RFC-001
-=======
+RFC-explicit-flow-keys
+======================
 
 Flow-collections as block-keys must be explicit
 
@@ -9,7 +9,7 @@ Flow-collections as block-keys must be explicit
 | Target | 1.3 |
 | Status | 0 |
 | Requires | |
-| Related | [RFC-002](RFC-002.md) [RFC-003](RFC-003.md) [RFC-004](RFC-004.md) |
+| Related | [RFC-single-line-flow-key-pairs](RFC-single-line-flow-key-pairs.md) [RFC-no-complex-key-in-flow-seq](RFC-no-complex-key-in-flow-seq.md) [RFC-004](RFC-004.md) |
 | Discuss | [Issue 0](../../issues/0) |
 | Tags | [block]() [explicit]() [flow]() [key]() [mapping]() |
 
@@ -45,7 +45,7 @@ And will need to be written as:
 : 42
 ```
 
-Combined with [RFC-002](RFC-002.md) we can make it use one line:
+Combined with [RFC-single-line-flow-key-pairs](RFC-single-line-flow-key-pairs.md) we can make it use one line:
 ```
 ? [4, 2]: 42
 ```

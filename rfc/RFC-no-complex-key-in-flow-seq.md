@@ -1,5 +1,5 @@
-RFC-003
-=======
+RFC-no-complex-key-in-flow-seq
+==============================
 
 Single-pair-mappings with collection-key forbidden in flow-sequences
 

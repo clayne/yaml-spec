@@ -1,5 +1,5 @@
-RFC-002
-=======
+RFC-single-line-flow-key-pairs
+==============================
 
 Explicit block-mapping pairs with a flow-collection key can be on a single line
 
@@ -9,7 +9,7 @@ Explicit block-mapping pairs with a flow-collection key can be on a single line
 | Target | 1.3 |
 | Status | 0 |
 | Requires | |
-| Related | [RFC-001](RFC-001.md) |
+| Related | [RFC-explicit-flow-keys](RFC-explicit-flow-keys.md) |
 | Discuss | [Issue 0](../../issues/0) |
 | Tags | [block]() [explicit]() [flow]() [key]() [mapping]() |
 
@@ -22,7 +22,7 @@ YAML 1.2 supports:
 [4, 5]: 6
 ```
 
-[RFC-001](RFC-001.md) requires that this be:
+[RFC-explicit-flow-keys](RFC-explicit-flow-keys.md) requires that this be:
 ```
 ? [1, 2]
 : 3

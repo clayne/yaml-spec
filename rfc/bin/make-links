@@ -26,10 +26,16 @@ make-name-links() (
     title=${title//\ /-}
     [[ $title == *[a-z]* ]] || continue
 
-    link=${rfc##*/}
-    link=${link%.md}-$title.md
+    if [[ $rfc == *[0-9][0-9][0-9]* ]]; then
+      link=${rfc##*/}
+      link=${link%.md}-$title.md
+    else
+      link=RFC-$title.md
+    fi
 
-    ln -fs "../$rfc" "name/$link"
+    (
+      ln -fs "../$rfc" "name/$link"
+    )
   done
 )
 
