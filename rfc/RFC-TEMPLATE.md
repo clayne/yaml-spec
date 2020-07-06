@@ -1,5 +1,5 @@
-RFC-000
-=======
+RFC-TEMPLATE
+============
 
 This is an RFC Template
 
@@ -8,8 +8,8 @@ This is an RFC Template
 | --- | --- |
 | Target | 1.3 |
 | Status | 0 |
-| Requires | [RFC-000](RFC-000.md) [RFC-000](RFC-000.md) |
-| Related | [RFC-000](RFC-000.md) [RFC-000](RFC-000.md) |
+| Requires | [RFC-a-b-c](RFC-a-b-c.md) [RFC-d-e-f](RFC-d-e-f.md) |
+| Related | [RFC-g-h-i](RFC-g-h-i.md) [RFC-j-k-l](RFC-j-k-l.md) |
 | Discuss | [Issue 0](../../issues/0) |
 | Tags | [foo]() [bar]() |
 
