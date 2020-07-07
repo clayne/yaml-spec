@@ -9,7 +9,7 @@ Flow-collections as block-keys must be explicit
 | Target | 1.3 |
 | Status | 0 |
 | Requires | |
-| Related | [RFC-single-line-flow-key-pairs](RFC-single-line-flow-key-pairs.md) [RFC-no-complex-key-in-flow-seq](RFC-no-complex-key-in-flow-seq.md) [RFC-004](RFC-004.md) |
+| Related | [RFC-single-line-flow-key-pairs](RFC-single-line-flow-key-pairs.md) [RFC-no-complex-key-in-flow-seq](RFC-no-complex-key-in-flow-seq.md) [RFC-no-explicit-key-in-flow](RFC-no-explicit-key-in-flow.md) |
 | Discuss | [Issue 0](../../issues/0) |
 | Tags | [block]() [explicit]() [flow]() [key]() [mapping]() |
 

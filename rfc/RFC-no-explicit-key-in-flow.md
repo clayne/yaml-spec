@@ -1,5 +1,5 @@
-RFC-004
-=======
+RFC-no-explicit-key-in-flow
+===========================
 
 Explicit-key-indicator not allowed in flow-mappings
 

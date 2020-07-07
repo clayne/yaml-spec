@@ -1,5 +1,5 @@
-RFC-005
-=======
+RFC-no-empty-key
+================
 
 Empty-scalars not allowed as keys
 

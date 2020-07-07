@@ -1,5 +1,5 @@
-RFC-007
-=======
+RFC-max-indent
+==============
 
 Maximum of 8 spaces per indentation level
 
@@ -9,14 +9,14 @@ Maximum of 8 spaces per indentation level
 | Target | 1.3 |
 | Status | 0 |
 | Requires | |
-| Related | [RFC-006](RFC-006.md) |
+| Related | [RFC-unindented-top-level](RFC-unindented-top-level.md) |
 | Discuss | [Issue 0](../../issues/0) |
 | Tags | [indent]() |
 
 
 ## Problem
 
-YAML 1.2 indentation can be an unlimitednumber of spaces per level.
+YAML 1.2 indentation can be an unlimited number of spaces per level.
 
 This is not needed and might be exploited for nefarious goals.
 

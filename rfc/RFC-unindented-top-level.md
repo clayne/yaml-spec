@@ -1,5 +1,5 @@
-RFC-006
-=======
+RFC-unindented-top-level
+========================
 
 Top-level block-nodes must start unindented
 
